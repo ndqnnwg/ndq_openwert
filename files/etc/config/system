@@ -10,8 +10,8 @@ config system
 config timeserver 'ntp'
 	option enabled '1'
 	option enable_server '0'
-	list server '0.ntp1.aliyun.com'
-	list server '1.ntp2.aliyun.com'
-	list server '2.ntp3.aliyun.com'
-	list server '3.ntp4.aliyun.com'
+	list server 'ntp1.aliyun.com'
+	list server 'ntp2.aliyun.com'
+	list server 'ntp3.aliyun.com'
+	list server 'ntp4.aliyun.com'
 
